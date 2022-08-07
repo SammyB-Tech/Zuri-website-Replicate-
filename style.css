@@ -1,0 +1,798 @@
+* {
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    background: #FFFDF5;
+}
+.webPage {
+    font-size: 20px;
+}
+.header {
+    display: flex;
+    position: sticky;
+    margin-bottom: 8%;
+    padding-bottom: 10px;
+    top: 0;
+    z-index: 2;
+}
+.area {
+    display: flex;
+    margin-left: 15%;
+}
+.list {
+    margin-right: 32px;
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 20px;
+    color: #545355;
+}
+.logo {
+    margin: 20px;
+}
+.thumb {
+    height: 70px;
+    background: #e7332b;
+    padding: 10px;
+    border-radius: 50%;
+    z-index: 1;
+    margin-top: 5px;
+}
+.enroll {
+    position: absolute;
+    right: 90px;
+    top: 3px;
+    background: #e7332b;
+    color: white;
+    padding: 10px 40px;
+    margin-top: 15px;
+    border-radius: 50px;
+    font-size: 18px;   
+}
+/* header styling ends */
+.getStarted {
+    position: relative;
+    padding-bottom: 12%;
+    z-index: 0;
+    margin: auto;
+    max-width: 90%;
+}
+.lady1 {
+    width: 30%;
+    position: absolute;
+    left: 0;
+    top: 20%;
+    z-index: -1;
+    background: #FFFDF5;
+}
+.male1 {
+    width: 25%;
+    position: absolute;
+    right: 0;
+    top: 16%;
+    background: #FFFDF5;
+}
+.info {
+    text-align: center;
+    max-width: 45%;
+    margin: auto;
+}
+.search {
+    color: #e7332b;
+    margin-bottom: 0;
+}
+.gain {
+    font-size: 48px;
+    line-height: 55px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+.basic {
+    width: 75%;
+    margin: 40px auto ;
+    color: #545355;
+}
+.enroll2 {
+    background: #e7332b;
+    color: white;
+    padding: 10px 35px;
+    border-radius: 50px;
+    font-size: 18px;  
+    margin: auto;
+    width: fit-content; 
+}
+.line {
+    position: absolute;
+    right: 34%;
+    top: 35%;
+    width: 14%;
+}
+.maleface {
+    position: absolute;
+    left: 29%;
+    bottom: 20%;
+    width: 5%;
+}
+.section1wire {
+    position: absolute;
+    right: 40%;
+    bottom: 5%;
+    width: 7%;
+}
+.sponsorship {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: auto;
+    max-width: 90%;
+}
+.launch {
+    font-weight: 700;
+    font-size: 25px;
+    width: 30%;
+}
+.ingresive {
+    width: 18%;
+}
+.help {
+    text-align: right;
+    width: 30%;
+    font-size: 25px;
+}
+.question {
+    color: red;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+.hireUs {
+    display: flex;
+    padding-top: 8%;
+    position: relative;
+    z-index: 0;
+    margin: auto;
+    max-width: 90%;
+}
+.answer {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 2px;
+    width: 85%;
+}
+.star {
+    width: 15%;
+    height: 15%;
+    margin-right: 18%;
+    margin-top: 5%;
+}
+.section3wire {
+    position: absolute;
+    left: 25%;
+    top: 10%;
+    width: 9%;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    padding: 40px 40px 10px 40px;
+    box-shadow: inset 20px 20px 21px #fffdf5,
+                inset -20px -20px 21px #fffdf5;
+    background: #fef0ea;
+    width: 96%;
+    margin: auto;
+}
+.card1 {
+    padding: 40px;
+    background: #e7332b;
+    width: 32%;
+    border-radius: 20px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.arc {
+    background-color: #e7332b;
+}
+.card-arc {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: none;
+    width: 30%;
+    border-radius: 0 20px 0 0;
+}
+.number1 {
+    background: #e7332b;
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+}
+.textHead1 {
+    background: #e7332b;
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 27px;
+}
+.textSub1 {
+    background: #e7332b;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.card {
+    padding: 40px;
+    background: #ffffff;
+    width: 32%;
+    border-radius: 20px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.number {
+    font-size: 60px;
+    font-weight: 700;
+}
+.textHead {
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 27px;
+}
+.textSub {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.practice {
+    background: #e7332b;
+    display: flex;
+    padding: 80px 70px 150px 100px;
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.wire {
+    position: absolute;
+    top: 60px;
+    background: #e7332b;
+    width: 90px;
+    left: 28%;
+}
+.practiceInfo {
+    background: #e7332b;
+}
+.practice > img {
+    width: 60%;
+    background: #e7332b;
+}
+.textHeadP {
+    background: #e7332b;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.textSubP {
+    background: #e7332b;
+    color: white;
+    margin-top: 40px;
+    width: 80%;
+}
+.enroll3 {
+    background: white;
+    color: #e7332b;
+    padding: 10px 25px;
+    margin-top: 30px;
+    border-radius: 50px;
+    font-size: 18px;  
+    width:fit-content ;
+    text-align: center;
+}
+.feature {
+    display: flex;
+    background: #e7332b;
+    flex-wrap: wrap;
+}
+.features {
+    background:#e7332b ;
+    border: 2px solid #fef0ea;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-right: 20px;
+    padding: 10px;
+    width: 45%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.features > img {
+    background: #e7332b;
+    width: 22%;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+.features > p {
+    position: absolute;
+    top: -2px;
+    background: #e7332b;
+    color: white;
+    left: 65px;
+}
+.dot {
+    position: absolute;
+    background: #e7332b;
+    width: 120px;
+    left: 50px;
+    bottom: 30px;
+}
+.scope {
+    width: 90%; 
+    margin: auto;
+    position: relative;
+    padding-bottom: 60px;
+}
+.response {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 2px;
+    width: 45%;
+}
+.section6wire {
+    position: absolute;
+    bottom: 0;
+    left: 43%;
+    width: 13%;
+}
+.text1 {
+    font-weight: 600;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.text2 {
+    font-size: 18px;
+    margin-top: 30px;
+    background-color: white;
+}
+.svg {
+    width: 15%;
+    margin-right: 10px;
+    background-color: white;
+}
+.svg2 {
+    width: 25%;
+    margin-right: 10px;
+    background-color: white;
+}
+.enro {
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+hr {
+    width: 90%;
+    margin-bottom: 10%;
+}
+.questions {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 85%;
+    margin: auto;
+    margin-top: 100px;
+}
+td {
+    border: 2px solid #9a9a9a;
+    text-align: left;
+    padding: 22px;
+}
+.moreQues {
+    display: flex;
+    margin: 20px 0 25px -50%;
+}
+.enr {
+    margin-left: -55%;
+}
+.lastStructure {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 55px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+.section7wire {
+    position: absolute;
+    left: 2%;
+    width: 10%;
+}
+.star1 {
+    position: absolute;
+    right: 2%;
+    width: 10%;
+}
+.cardSection {
+    display: flex;
+    width: 94%;
+    margin: auto;
+    justify-content: space-between;
+}
+.cardStructure {
+    padding: 50px;
+    background: #1b1a20;
+    width: 48%;
+    border-radius: 50px;
+    position: relative;
+    margin-bottom: 20px;
+    z-index: 1;
+}
+.textSHead {
+    background: #1b1a20;
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+.textbody {
+    background: #1b1a20;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-align: left;
+    width: 90%;
+}
+.textSubHead {
+    background: #1b1a20;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    width: 90%;
+}
+.cardStructure > ul > li {
+    background: local;
+    color: white;
+    font-size: 18px;
+    text-align: left;
+}
+.cardStructure > ul {
+    background: local;
+    color: white;
+    margin-top: 0;
+    margin-left: -20px;
+}
+.cardStructure > img {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    background-color: #1b1a20;
+    width: 20%;
+    z-index: -1;
+}
+.mar {
+    margin-bottom: 20px;
+}
+.move {
+    position: absolute;
+    left: -7%;
+    top: 45%;
+    background: local;
+    width: 12%;
+}
+.circle {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: local;
+    width: 15%;
+    z-index: 0;
+}
+.break {
+    background: #e7332b;
+    padding: 60px;
+    text-align: center;
+    border-radius: 30px;
+    position: relative;
+}
+.circle2 {
+    width: 10%;
+}
+.breakBody {
+    background: #e7332b;
+    color: white;
+    margin: 10px 0;
+}
+.breakHead {
+    background: #e7332b;
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    width: 50%;
+    margin: auto;
+}
+.en {
+    margin: 40px auto;
+}
+.round {
+    background: local;
+    position: absolute;
+    top: 50px;
+    left: 110px;
+    width: 14%;
+}
+.curve2 {
+    background: local;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 10%;
+}
+.bend1 {
+    background: local;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10%;
+}
+.mains {
+    background: local;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 12%;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding: 30px 0;
+}
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+@media screen and (max-width: 960px) {
+    .webPage {
+        font-size: 16px;
+    }
+    .header {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .logo {
+        width: 45%;
+        margin-top: 20px;
+    }
+    .thumb {
+        height: 50px;
+        background: #e7332b;
+        padding: 10px;
+        border-radius: 50%;
+        z-index: 1;
+        margin-top: 5px;
+        position: absolute;
+        right: 30%;
+    }
+    .enroll {
+        position: absolute;
+        right: 0;
+        top: -4px;
+        background: #e7332b;
+        color: white;
+        padding: 7px 20px;
+        margin-top: 15px;
+        border-radius: 50px;
+        font-size: 18px;   
+    }
+    .area ul, .male1, .maleface, .circle2 {
+        margin: 0;
+        display: none;
+    }
+    .lady1 {
+        position: relative;
+        width: 100%;
+    }
+    .info {
+        max-width: 100%;
+    }
+    .gain {
+        font-size: 28px;
+        line-height: 30px;
+        margin-top: 5px;
+        margin-bottom: 40px;
+    }
+    .basic {
+        width: 100%;
+        margin: 40px auto ;
+        color: #545355;
+    }
+    .enroll2 {
+        background: #e7332b;
+        color: white;
+        padding: 10px 35px;
+        border-radius: 50px;
+        font-size: 18px;  
+        margin: auto;
+        width: fit-content; 
+    }
+    .line {
+        position: absolute;
+        right: 10%;
+        top: 62%;
+        width: 30%;
+    }
+    .section1wire {
+        position: absolute;
+        right: 17%;
+        bottom: 3%;
+        width: 15%;
+        background: local;
+    }
+    .getStarted {
+        padding-bottom: 25%;
+    }
+    .sponsorship, .footer {
+        display: block;
+    }
+    .launch {
+        font-weight: 700;
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .help {
+        text-align: right;
+        width: 100%;
+        font-size: 18px;
+        text-align: center;
+    }
+    .ingresive {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .question {
+        font-size: 20px;
+    }
+    .answer, .response {
+        font-size: 23px;
+        font-weight: 700;
+        margin: 15px 0;
+        width: 100%;
+    }
+    .star {
+        display: none;
+    }
+    .section3wire {
+        position: absolute;
+        left: 60%;
+        top: 0;
+        width: 25%;
+        background: local;
+    }
+    .cards {
+        display: block;
+        padding: 10px;
+    }
+    .card, .card1 {
+        width: 100%;
+    }
+    .practice {
+        display: block;
+        padding: 60px 20px;
+    }
+    .practice > img {
+        width: 100%;;
+    }
+    .textSubP {
+        margin-top: 28px;
+        width: 100%;
+        font-weight: 500;
+        font-size: 18px;
+    }
+    .textHeadP {
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+    .wire {
+        top: 20px;
+        background: #e7332b;
+        width: 80px;
+        left: 40%;
+    }
+    .features {
+        margin-top: 30px;
+        padding: 10px;
+        width: 43%;
+    }
+    .features > p {
+        top: 4px;
+        left: 50px;
+        font-size: 12px;
+    }
+    .dot {
+        width: 50px;
+        left: 30px;
+        bottom: 20px;
+    }
+    .section6wire {
+        top: 120px;
+        background: local;
+        width: 120px;
+        left: 30%;
+    }
+    .enro {
+        margin-top: 5%;
+        margin-bottom: 20%;
+    }
+    .moreQues {
+        display: block;
+        margin: 0;
+        margin-bottom: 50px;
+    }
+    .cardSection {
+        display: block;
+        width: 100%;
+    }
+    .cardStructure {
+        width: 100%;
+        padding: 40px;
+    }
+    .circle {
+        bottom: 20px;
+        background: local;
+        width: 40%;
+        z-index: 0;
+    }
+    .break {
+        background: #e7332b;
+        padding:20px  30px;
+        text-align: center;
+        border-radius: 30px;
+        position: relative;
+    }
+    .breakBody {
+        margin: 5px 0;
+        font-weight: 500;
+        margin-top: 50px;
+    }
+    .breakHead {
+        font-size: 27px;
+        font-weight: 700;
+        width: 80%;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .round {
+        width: 20%;
+        left: 10%;
+        top: 7%;
+    }
+    .curve2, .bend1 {
+        width: 25%;
+    }
+    .mains {
+        width: 20%;
+    }
+    .socials {
+        margin: 20px auto;
+        width: 60%;
+    }
+    .copyright {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+    .copyright > div {
+        text-align: center;
+        padding: 10px 0;
+    }
+}  
